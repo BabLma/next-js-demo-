@@ -16,7 +16,7 @@ const NewMeetUp = () => {
     };
     const response = await fetch("/api/new-meetup", config);
     const data = await response.json();
-    console.log(data);
+    // console.log(data);
 
     router.push("/");
   };
