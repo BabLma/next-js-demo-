@@ -40,8 +40,6 @@ export const getStaticPaths = async () => {
   };
 };
 
-// getStaticPaths running in serverside
-
 export const getStaticProps = async (context) => {
   const meetupId = context.params.meetupId;
 
