@@ -9,6 +9,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  border-radius: 2px solid red;
 }
 
 * {
